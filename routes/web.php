@@ -20,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::get('/email_kuldes', [MailController::class, 'index']);
+Route::post('/fajl_email_kuldes', [MailController::class, 'index2']);

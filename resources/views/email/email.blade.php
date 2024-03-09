@@ -7,7 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>{{$adat["title"]}}</h1>
-    <p>{{$adat["body"]}}</p>
+    <h1>{{$adat["cim"]}}</h1>
+    <p>{{$adat["uzenet"]}}</p>
+    <p>{{$adat["fajl"]}}</p>
 </body>
 </html>

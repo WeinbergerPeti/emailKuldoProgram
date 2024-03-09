@@ -27,8 +27,8 @@ class DemoMail extends Mailable
     {
         // return $this->view("email.blade")->subject("Tárgy mező");
         return $this->from("teszt.email.cim.fiok@gmail.com", "Teszt Fiók")
-        ->subject("Tárgy mező")
-        ->view('email.blade');
+        ->subject("Tárgy mező");
+        // ->view('email.blade');
     }
 
 
